@@ -11,11 +11,8 @@ const App = () =>{
     return (
         <>
           <h1>Buscador de Gifs</h1>
-          
-          
           <hr></hr> 
         <Buscador busqueda={busqueda} setBusqueda={setBusqueda}/>
-
           
             {
               busqueda.map((item) =>{
@@ -30,6 +27,3 @@ const App = () =>{
 }
 
 export default App
-// Crear un componente que se llame buscador
-// Contenido del componente: un h1 que diga "Gif", imput de tipo texto y hr
-// Llamar componente en App.js
